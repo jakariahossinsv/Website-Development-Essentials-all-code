@@ -1,0 +1,135 @@
+1.Table and Form rule:
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+</head>
+<body>
+
+    <h2>HTML Table Example</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Michael Johnson</td>
+            <td>35</td>
+            <td>Canada</td>
+        </tr>
+    </table>
+    <form>
+        <legend>User Information:</legend>
+        Enter your name <br>
+        <input type="text" name="username"><br/>
+        Enter your address:<br/>
+<textarea rows="2" cols="20"></textarea><br/>
+<label for="firstname">First Name: </label> <br/>
+<input type="text" id="firstname" name="firstname"/> <br/>
+<label for="lastname">Last Name: </label><br>
+<input type="text" id="lastname" name="lastname"/> <br/>
+<label for="gender">Gender: </label>
+<input type="radio" id="gender" name="gender" value="male"/>Male
+<input type="radio" id="gender" name="gender"
+value="female"/>Female <br/>
+Hobby:<br>
+<input type="checkbox" id="cricket" name="cricket" value="cricket"/>
+<label for="cricket">Cricket</label> <br>
+<input type="checkbox" id="football" name="football" value="football"/>
+<label for="football">Football</label> <br>
+<input type="checkbox" id="hockey" name="hockey" value="hockey"/>
+<label for="hockey">Hockey</label><br/>
+
+    <label for="name">Enter name</label><br/>
+    <input type="text" id="name" name="name"><br/>
+    <label for="pass">Enter Password</label><br/>
+    <input type="Password" id="pass" name="pass"><br/>
+    
+    <input type="submit" value="submit">
+  
+
+
+        </form>
+        <style>
+            p{
+             text-align: center;
+             color: blue;
+            }
+            </style>
+            <body>
+            <p id="para1">Me too!</p>
+            </body>
+            <style>
+                h1 {
+                 text-align: first;
+                 color: blue;}
+                </style>
+                <h1 class="center">This heading is blue and centeraligned.</h1>
+                <p class="center">This paragraph is blue and center-aligned.</p>
+
+</body>
+</html>
+
+2: COLSPAN & ROWSPAN
+
+
+<html>
+<body>
+<table border ="1">
+<tr>
+	<th colspan ="2"> Name </th>
+	<th> age </th>
+	<th colspan ="2"> Course </th>
+</tr>
+<tr>
+	<td> Minja </td>
+	<td> 1 </td>
+	<td> 20 </td>
+	<td> c++ </td>
+	<td> python </td>
+</tr>
+<tr>
+	<td> Ninja </td>
+	<td> 2 </td>
+	<td>31 </td>
+	<td colspan="2"> Java</td>
+</tr>	
+<tr>	
+	<td> pinja </td>
+	<td> 3 </td>
+	<td> 29 </td>
+	<td> Javascript </td>
+	<td> R </td>
+</tr>
+</body>
+</table>
+</html>
+
+
+
+3. FIELDSET ELEMENT
+
+<form>
+<fieldset>
+<legend>User Information:</legend>
+<label for="name">Enter name</label><br>
+<input type="text" id="name" name="name"><br>
+<label for="pass">Enter Password</label><br>
+<input type="Password" id="pass" name="pass"><br>
+<input type="submit" value="submit">
+</fieldset>
+</form>
