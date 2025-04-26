@@ -1,0 +1,26 @@
+1.Orderd list
+
+<ol>
+<li>Apple</li>
+<li>Ball</li>
+<li>Cat</li>
+<li>Duck</li>
+</ol>
+
+
+  2.Unorderd list
+
+<ul>
+<li>Apple</li>
+<li>Ball</li>
+<li>Cat</li>
+<li>Duck</li>
+</ul>
+
+  3.Description list
+<dl>
+<dt>Apple</dt>
+<dd>-Steve jobs is the founder.</dd>
+<dt>Microsoft</dt>
+<dd>-Bill gates is the founder.</dd>
+</dl>
