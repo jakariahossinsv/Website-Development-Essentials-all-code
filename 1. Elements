@@ -1,0 +1,17 @@
+1. Block-level
+<body>
+ <div style="background-color: lightblue">This is first div</div>
+ <div style="background-color: lightgreen">This is second div</div>
+ <p style="background-color: pink">This is a block level element</p>
+</body>
+
+
+2.Inline
+
+<body>
+<a href="https://google.com">Click on link</a>
+<span style="background-color: lightblue">this is inline element</span>
+<p>This will take width of text only</p>
+</body>
+
+3.Voide: <br>,<hr>
