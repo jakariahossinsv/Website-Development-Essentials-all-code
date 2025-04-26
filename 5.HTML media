@@ -1,0 +1,102 @@
+1. html video
+
+<!DOCTYPE html> 
+<html> 
+<body> 
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+</body> 
+</html>
+
+
+
+2.html audio
+
+<!DOCTYPE html>
+<html>
+<body>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</body>
+</html>
+
+
+
+
+
+3. html plug-in
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<object width="100%" height="500px" data="snippet.html"></object>
+<object data="audi.jpeg"></object>
+<embed src="audi.jpeg">
+ </body>
+</html>
+
+
+
+
+
+4.html u-tube
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- <p>To play your video on a web page, do the following:
+Upload the video to YouTube
+Take a note of the video id
+Define an <iframe> element in your web page
+Let the src attribute point to the video URL
+Use the width and height attributes to specify the dimension of the player
+Add any other parameters to the URL (see below)
+ </p> -->
+
+
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+
+or <!-- <p>Add mute=1 after autoplay=1 to let your video start playing automatically (but muted). </p> -->
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+</iframe>
+
+
+
+
+
+or <!-- <p>Add playlist=videoID and loop=1 to let your video loop forever. </p> -->
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
+</iframe>
+
+
+
+or <!-- <p>Add controls=0 to NOT display controls in the video player. </p> -->
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe>
+
+
+
+
+</body>
+</html>
+
+
